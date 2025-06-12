@@ -11,12 +11,5 @@ frontendRouter.get('/', (req, res) => {
   res.sendFile(`${html_dir}index.html`);
 });
 
-frontendRouter.get('/park', (req,  res) => {
-  res.sendFile(`${html_dir}park.html`);
-});
-
-frontendRouter.get('/error', (req, res) => {
-  res.sendFile(`${html_dir}error.html`);
-});
 
 module.exports = frontendRouter;

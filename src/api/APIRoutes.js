@@ -2,8 +2,7 @@ const express = require('express');
 const apiRouter = express.Router();
 
 
-const CountyDAO = require('./db/CountyDAO');
-const ParkDAO = require('./db/ParkDAO');
+const LiqourDAO = require('./db/LiqourDAO');
 
 apiRouter.use(express.json());
 
@@ -12,7 +11,7 @@ apiRouter.use(express.json());
 \************/
 
 
-//Get all counties
+/*Get all counties
 apiRouter.get('/counties', (req,  res) => {
   CountyDAO.getCounties().then(counties => {
     res.json(counties);
@@ -110,3 +109,4 @@ apiRouter.delete('/parks/:parkId', (req,  res) => {
 
 
 module.exports = apiRouter;
+*/
