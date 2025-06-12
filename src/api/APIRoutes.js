@@ -106,7 +106,7 @@ apiRouter.delete('/parks/:parkId', (req,  res) => {
   res.status(501).json({error: 'Not implemented'});
 });
 
-
+*/
 
 module.exports = apiRouter;
-*/
+
